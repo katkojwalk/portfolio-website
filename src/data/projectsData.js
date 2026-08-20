@@ -69,7 +69,7 @@ export const projects = [
     featured: true,
     image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
     githubUrl: "https://github.com/katkojwalk/AWS-DevOps-portfolio-project-setup.git",
-    liveUrl: "https://app.netlify.com/projects/aws-devopss/deploys",
+    liveUrl: "https://aws-devopss.netlify.app/",
     status: "Live AWS DevOps Pipeline",
     features: [
       "Terraform infrastructure provisioning scripts",
