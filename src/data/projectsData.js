@@ -1,5 +1,6 @@
 export const projectCategories = [
   "All",
+  "CMR",
   "Backend",
   "React Apps",
   "Databases",
@@ -11,16 +12,36 @@ export const projectCategories = [
   "Graphic Design",
   "SEO",
   "AEO",
-  "GEO",
-  "CMR"
+  "GEO"
 ];
 
 export const projects = [
   {
+    id: "estateflow-crm",
+    title: "EstateFlow CRM System",
+    shortDescription: "Full-stack real estate CRM platform featuring lead pipelines, property management, deal tracking, and analytics dashboard.",
+    fullDescription: "A comprehensive real estate CRM built with React.js, Express.js, and Node.js. Features automated lead tracking, deal pipelines, customer interactions, property management, and full single-page application routing deployed live on Netlify.",
+    category: "CMR",
+    secondaryCategories: ["CMR", "React Apps", "Backend", "Databases"],
+    technologies: ["React.js", "Node.js", "Express.js", "PostgreSQL", "Tailwind CSS", "Netlify"],
+    featured: true,
+    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop",
+    githubUrl: "https://github.com/katkojwalk/estateflow-crm.git",
+    liveUrl: "https://superb-hummingbird-b79b0e.netlify.app",
+    status: "Live CRM Platform",
+    features: [
+      "Interactive lead management & deal pipeline stages",
+      "Property listing & customer contact directory",
+      "Dark/light theme mode & quick-add modals",
+      "Single Page Application routing with Netlify deployment"
+    ],
+    architecture: "React SPA + Express.js REST API + PostgreSQL / NoSQL + Netlify"
+  },
+  {
     id: "portfolio-website-main",
     title: "Personal Portfolio Website",
     shortDescription: "Modern, high-performance personal portfolio website built with React.js, Tailwind CSS, Lucide React, and glassmorphism UI, deployed live on Netlify.",
-    fullDescription: " Katkojwal Krishna's personal portfolio website highlighting full-stack engineering across React, Java, Node.js, Express, Django, Flask, PHP, databases, AWS cloud infrastructure, and DevOps pipelines.",
+    fullDescription: "Katkojwal Krishna's personal portfolio website highlighting full-stack engineering across React, Java, Node.js, Express, Django, Flask, PHP, databases, AWS cloud infrastructure, and DevOps pipelines.",
     category: "React Apps",
     secondaryCategories: ["React Apps", "Web Development", "SEO"],
     technologies: ["React.js", "Vite", "Tailwind CSS", "Lucide React", "Netlify"],

@@ -110,9 +110,15 @@ export default function CmrProjects() {
                       </div>
 
                       <div className="text-right font-mono text-xs">
-                        <span className="px-3 py-1.5 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 inline-block">
-                          {project.liveUrl}
-                        </span>
+                        <a
+                          href={project.liveUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold flex items-center gap-1.5 shadow-md shadow-blue-500/20 transition-all"
+                        >
+                          <ExternalLink className="w-3.5 h-3.5" />
+                          <span>Visit Live CRM Site</span>
+                        </a>
                       </div>
                     </div>
 
