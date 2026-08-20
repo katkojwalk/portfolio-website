@@ -16,6 +16,49 @@ export const projectCategories = [
 
 export const projects = [
   {
+    id: "quadra-tuitions",
+    title: "Quadra Home Tuitions",
+    shortDescription: "A modern, professional home tuition business platform connecting students with qualified tutors.",
+    fullDescription: "Quadra Home Tuitions is a dedicated web platform designed for home tutoring services. Built to streamline tutor search, subject selection, and contact inquiries with optimized page load speeds and clean layout.",
+    category: "Web Development",
+    secondaryCategories: ["PHP", "WordPress", "SEO", "Databases"],
+    technologies: ["PHP", "WordPress", "MySQL", "HTML5", "CSS3", "JavaScript", "SEO"],
+    featured: true,
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop",
+    githubUrl: "https://github.com/katkojwalk/portfolio-website",
+    liveUrl: "https://www.quadrahometuitions.in",
+    status: "Live Business Site",
+    features: [
+      "Responsive service listing pages",
+      "Interactive inquiry form",
+      "Optimized for local search engine visibility",
+      "Fast loading speed & mobile optimization"
+    ],
+    architecture: "LAMP Architecture (Linux, Apache, MySQL, PHP / WordPress)"
+  },
+  {
+    id: "3d-calculator",
+    title: "3D Glassmorphism Calculator",
+    shortDescription: "Interactive, modern 3D glassmorphism calculator with smooth animations and calculation history.",
+    fullDescription: "A sleek frontend application showcasing 3D visual styling, glassmorphism UI effects, keyboard navigation support, dark/light ambient lighting, and dynamic calculation history stack.",
+    category: "React Apps",
+    secondaryCategories: ["React Apps", "Graphic Design"],
+    technologies: ["React.js", "Tailwind CSS", "JavaScript ES6", "CSS 3D Transforms"],
+    featured: true,
+    isInteractiveDemo: true,
+    image: "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?q=80&w=800&auto=format&fit=crop",
+    githubUrl: "https://github.com/katkojwalk/portfolio-website",
+    liveUrl: "https://clever-beignet-0d057e.netlify.app",
+    status: "Interactive Web App",
+    features: [
+      "Realistic 3D glassmorphism depth effects",
+      "Calculation history stack",
+      "Keyboard input support (NumPad & Operators)",
+      "Responsive fluid layout"
+    ],
+    architecture: "Single Page Application (React / Component State)"
+  },
+  {
     id: "react-supabase-task-app",
     title: "React & Supabase Full-Stack App",
     shortDescription: "Modern React web application featuring PostgreSQL backend, authentication, and real-time database syncing with Supabase.",
@@ -25,8 +68,8 @@ export const projects = [
     technologies: ["React.js", "Supabase", "PostgreSQL", "Tailwind CSS", "JavaScript ES6"],
     featured: true,
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "[ADD GITHUB URL]",
-    liveUrl: "[ADD LIVE DEMO URL]",
+    githubUrl: "https://github.com/katkojwalk/portfolio-website",
+    liveUrl: "https://teal-swan-468600.netlify.app",
     status: "Full-Stack React App",
     features: [
       "PostgreSQL database integration via Supabase",
@@ -46,8 +89,8 @@ export const projects = [
     technologies: ["MongoDB", "Firebase", "PostgreSQL", "MySQL", "React.js"],
     featured: true,
     image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "[ADD GITHUB URL]",
-    liveUrl: "[ADD DEMO URL]",
+    githubUrl: "https://github.com/katkojwalk/portfolio-website",
+    liveUrl: "https://dashing-douhua-34e853.netlify.app/",
     status: "Database Infrastructure Project",
     features: [
       "MongoDB Mongoose schema & aggregation pipelines",
@@ -56,49 +99,6 @@ export const projects = [
       "API data mapping and caching strategies"
     ],
     architecture: "React Frontend + MongoDB NoSQL + Firebase Firestore + PostgreSQL"
-  },
-  {
-    id: "quadra-tuitions",
-    title: "Quadra Home Tuitions",
-    shortDescription: "A modern, professional home tuition business platform connecting students with qualified tutors.",
-    fullDescription: "Quadra Home Tuitions is a dedicated web platform designed for home tutoring services. Built to streamline tutor search, subject selection, and contact inquiries with optimized page load speeds and clean layout.",
-    category: "Web Development",
-    secondaryCategories: ["PHP", "WordPress", "SEO", "Databases"],
-    technologies: ["PHP", "WordPress", "MySQL", "HTML5", "CSS3", "JavaScript", "SEO"],
-    featured: true,
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "[ADD GITHUB URL]",
-    liveUrl: "[ADD LIVE WEBSITE URL]",
-    status: "Live Business Site",
-    features: [
-      "Responsive service listing pages",
-      "Interactive inquiry form",
-      "Optimized for local search engine visibility",
-      "Fast loading speed & mobile optimization"
-    ],
-    architecture: "LAMP Architecture (Linux, Apache, MySQL, PHP / WordPress)"
-  },
-  {
-    id: "3d-calculator",
-    title: "3D Glassmorphism Calculator",
-    shortDescription: "Interactive, modern 3D glassmorphism calculator with smooth animations and calculation history.",
-    fullDescription: "A sleek frontend application showcasing 3D visual styling, glassmorphism UI effects, keyboard navigation support, dark/light ambient lighting, and dynamic calculation history stack.",
-    category: "React Apps",
-    secondaryCategories: ["React Apps", "Graphic Design"],
-    technologies: ["React.js", "Tailwind CSS", "JavaScript ES6", "CSS 3D Transforms"],
-    featured: true,
-    isInteractiveDemo: true, // Triggers built-in 3D calculator modal!
-    image: "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "[ADD GITHUB URL]",
-    liveUrl: "[ADD LIVE DEMO URL]",
-    status: "Interactive Web App",
-    features: [
-      "Realistic 3D glassmorphism depth effects",
-      "Calculation history stack",
-      "Keyboard input support (NumPad & Operators)",
-      "Responsive fluid layout"
-    ],
-    architecture: "Single Page Application (React / Component State)"
   },
   {
     id: "aws-static-website",
@@ -110,8 +110,8 @@ export const projects = [
     technologies: ["AWS EC2", "AWS S3", "Linux (Ubuntu)", "Nginx", "Git"],
     featured: true,
     image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "[ADD GITHUB URL]",
-    liveUrl: "[ADD LIVE DEMO URL]",
+    githubUrl: "https://github.com/katkojwalk/portfolio-website",
+    liveUrl: "https://dashing-douhua-34e853.netlify.app/",
     status: "Cloud Infrastructure Project",
     features: [
       "Configured Ubuntu EC2 instance on AWS",
@@ -131,8 +131,8 @@ export const projects = [
     technologies: ["AWS EC2", "AWS S3", "AWS RDS (MySQL/PostgreSQL)", "Linux", "Nginx"],
     featured: true,
     image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "[ADD GITHUB URL]",
-    liveUrl: "[ADD ARCHITECTURE DOCS URL]",
+    githubUrl: "https://github.com/katkojwalk/portfolio-website",
+    liveUrl: "https://dashing-douhua-34e853.netlify.app/",
     status: "Cloud Experiment / Lab",
     features: [
       "EC2 instance provisioning and security group rules",
@@ -152,8 +152,8 @@ export const projects = [
     technologies: ["Git", "GitHub", "Jenkins", "Docker", "Kubernetes", "AWS"],
     featured: true,
     image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "[ADD GITHUB URL]",
-    liveUrl: "[ADD PIPELINE DEMO URL]",
+    githubUrl: "https://github.com/katkojwalk/portfolio-website",
+    liveUrl: "https://teal-swan-468600.netlify.app",
     status: "Pipeline Prototype / In Progress",
     features: [
       "Automated Git commit triggers to Jenkins server",
