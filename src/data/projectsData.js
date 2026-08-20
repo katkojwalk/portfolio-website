@@ -17,46 +17,25 @@ export const projectCategories = [
 
 export const projects = [
   {
-    id: "express-django-flask-backend-hub",
-    title: "Multi-Framework Microservices Backend",
-    shortDescription: "Scalable backend suite built using Express.js (Node.js), Django (Python), Flask, and Java REST APIs with MongoDB & PostgreSQL integration.",
-    fullDescription: "A multi-framework backend architecture lab demonstrating RESTful API development across Express.js, Django, Flask, Java, and PHP. Includes JWT authentication, ORM database connectivity, and API routing.",
-    category: "Backend",
-    secondaryCategories: ["Backend", "Databases", "React Apps"],
-    technologies: ["Express.js", "Django", "Flask", "Java", "Node.js", "PostgreSQL", "MongoDB"],
-    featured: true,
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "https://github.com/katkojwalk/portfolio-website",
-    liveUrl: "https://dashing-douhua-34e853.netlify.app/",
-    status: "Backend API Suite",
-    features: [
-      "Express.js & Node.js async API middleware",
-      "Django ORM & Flask lightweight microservices",
-      "Java REST API controllers & object mapping",
-      "PostgreSQL & MongoDB data persistence"
-    ],
-    architecture: "Express.js + Django + Flask + Java REST APIs + MongoDB/PostgreSQL"
-  },
-  {
-    id: "react-supabase-task-app",
-    title: "React & Supabase Full-Stack App",
-    shortDescription: "Modern React web application featuring PostgreSQL backend, authentication, and real-time database syncing with Supabase.",
-    fullDescription: "A full-stack Single Page Application (SPA) built using React.js and Supabase (PostgreSQL). Implements secure user authentication, row-level security (RLS), real-time database subscriptions, and responsive UI components.",
+    id: "portfolio-website-main",
+    title: "Personal Portfolio Website",
+    shortDescription: "Modern, high-performance personal portfolio website built with React.js, Tailwind CSS, Lucide React, and glassmorphism UI, deployed live on Netlify.",
+    fullDescription: " Katkojwal Krishna's personal portfolio website highlighting full-stack engineering across React, Java, Node.js, Express, Django, Flask, PHP, databases, AWS cloud infrastructure, and DevOps pipelines.",
     category: "React Apps",
-    secondaryCategories: ["React Apps", "Backend", "Databases"],
-    technologies: ["React.js", "Express.js", "Supabase", "PostgreSQL", "JavaScript ES6"],
+    secondaryCategories: ["React Apps", "Web Development", "SEO"],
+    technologies: ["React.js", "Vite", "Tailwind CSS", "Lucide React", "Netlify"],
     featured: true,
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
     githubUrl: "https://github.com/katkojwalk/portfolio-website",
-    liveUrl: "https://teal-swan-468600.netlify.app",
-    status: "Full-Stack React App",
+    liveUrl: "https://portfolio-websitekk.netlify.app",
+    status: "Live Production Site",
     features: [
-      "PostgreSQL database integration via Supabase",
-      "Real-time data synchronization & state management",
-      "Secure user authentication (JWT / OAuth)",
-      "Responsive glassmorphism dashboard UI"
+      "Responsive glassmorphism dark/light mode UI",
+      "Interactive 3D calculator & DevOps pipeline widget",
+      "Comprehensive skill matrix & live project links",
+      "Netlify continuous deployment with custom domain"
     ],
-    architecture: "React SPA + Express.js API + Supabase (PostgreSQL BaaS)"
+    architecture: "React 19 + Vite 6 + Tailwind CSS + Netlify CDN"
   },
   {
     id: "quadra-tuitions",
@@ -80,6 +59,48 @@ export const projects = [
     architecture: "LAMP Architecture (Linux, Apache, MySQL, PHP / WordPress)"
   },
   {
+    id: "aws-devops-portfolio-setup",
+    title: "AWS DevOps Portfolio Setup",
+    shortDescription: "Automated AWS DevOps deployment setup featuring Docker, Kubernetes manifests, Jenkins CI pipelines, and Terraform infrastructure.",
+    fullDescription: "An end-to-end cloud environment demonstrating infrastructure as code (Terraform), Docker containerization, Kubernetes cluster scheduling, and automated deployment pipelines on AWS.",
+    category: "DevOps",
+    secondaryCategories: ["AWS", "DevOps", "Backend"],
+    technologies: ["AWS", "Docker", "Kubernetes", "Jenkins", "Terraform", "Nginx"],
+    featured: true,
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
+    githubUrl: "https://github.com/katkojwalk/AWS-DevOps-portfolio-project-setup.git",
+    liveUrl: "https://app.netlify.com/projects/aws-devopss/deploys",
+    status: "Live AWS DevOps Pipeline",
+    features: [
+      "Terraform infrastructure provisioning scripts",
+      "Jenkins CI continuous integration pipeline",
+      "Kubernetes pod deployment configuration",
+      "Docker container image building & Netlify deployment"
+    ],
+    architecture: "AWS EC2/S3 + Docker + Kubernetes (K8s) + Jenkins + Netlify"
+  },
+  {
+    id: "react-supabase-task-app",
+    title: "React & Supabase Full-Stack App",
+    shortDescription: "Modern React web application featuring PostgreSQL backend, authentication, and real-time database syncing with Supabase.",
+    fullDescription: "A full-stack Single Page Application (SPA) built using React.js and Supabase (PostgreSQL). Implements secure user authentication, row-level security (RLS), real-time database subscriptions, and responsive UI components.",
+    category: "React Apps",
+    secondaryCategories: ["React Apps", "Backend", "Databases"],
+    technologies: ["React.js", "Express.js", "Supabase", "PostgreSQL", "JavaScript ES6"],
+    featured: true,
+    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop",
+    githubUrl: "https://github.com/katkojwalk/portfolio-website",
+    liveUrl: "https://teal-swan-468600.netlify.app",
+    status: "Live Netlify App",
+    features: [
+      "PostgreSQL database integration via Supabase",
+      "Real-time data synchronization & state management",
+      "Secure user authentication (JWT / OAuth)",
+      "Responsive glassmorphism dashboard UI"
+    ],
+    architecture: "React SPA + Express.js API + Supabase (PostgreSQL BaaS)"
+  },
+  {
     id: "3d-calculator",
     title: "3D Glassmorphism Calculator",
     shortDescription: "Interactive, modern 3D glassmorphism calculator with smooth animations and calculation history.",
@@ -92,7 +113,7 @@ export const projects = [
     image: "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?q=80&w=800&auto=format&fit=crop",
     githubUrl: "https://github.com/katkojwalk/portfolio-website",
     liveUrl: "https://clever-beignet-0d057e.netlify.app",
-    status: "Interactive Web App",
+    status: "Live Netlify App",
     features: [
       "Realistic 3D glassmorphism depth effects",
       "Calculation history stack",
@@ -112,8 +133,8 @@ export const projects = [
     featured: true,
     image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=800&auto=format&fit=crop",
     githubUrl: "https://github.com/katkojwalk/portfolio-website",
-    liveUrl: "https://dashing-douhua-34e853.netlify.app/",
-    status: "Database Infrastructure Project",
+    liveUrl: "https://dashing-douhua-34e853.netlify.app",
+    status: "Live Netlify App",
     features: [
       "MongoDB Mongoose schema & aggregation pipelines",
       "Firebase Auth & Cloud Firestore live listener setup",
@@ -123,45 +144,24 @@ export const projects = [
     architecture: "React Frontend + Express.js/Django + MongoDB + Firebase Firestore + PostgreSQL"
   },
   {
-    id: "aws-static-website",
-    title: "AWS Static Website Hosting",
-    shortDescription: "High-availability static web hosting architecture on AWS EC2 & S3 with Nginx reverse proxy.",
-    fullDescription: "Cloud deployment project showcasing server setup, Linux administration, Nginx web server configuration, S3 bucket storage integration, and SSL security configuration.",
-    category: "AWS",
-    secondaryCategories: ["AWS", "DevOps"],
-    technologies: ["AWS EC2", "AWS S3", "Linux (Ubuntu)", "Nginx", "Git"],
+    id: "express-django-flask-backend-hub",
+    title: "Multi-Framework Microservices Backend",
+    shortDescription: "Scalable backend suite built using Express.js (Node.js), Django (Python), Flask, and Java REST APIs with MongoDB & PostgreSQL integration.",
+    fullDescription: "A multi-framework backend architecture lab demonstrating RESTful API development across Express.js, Django, Flask, Java, and PHP. Includes JWT authentication, ORM database connectivity, and API routing.",
+    category: "Backend",
+    secondaryCategories: ["Backend", "Databases", "React Apps"],
+    technologies: ["Express.js", "Django", "Flask", "Java", "Node.js", "PostgreSQL", "MongoDB"],
     featured: true,
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "https://github.com/katkojwalk/AWS-DevOps-portfolio-project-setup.git",
-    liveUrl: "https://dashing-douhua-34e853.netlify.app/",
-    status: "Cloud Infrastructure Project",
+    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=800&auto=format&fit=crop",
+    githubUrl: "https://github.com/katkojwalk/portfolio-website",
+    liveUrl: "https://dashing-douhua-34e853.netlify.app",
+    status: "Backend API Suite",
     features: [
-      "Configured Ubuntu EC2 instance on AWS",
-      "Nginx web server setup & virtual host routing",
-      "AWS S3 bucket setup for static assets",
-      "Linux command line administration & firewall setup"
+      "Express.js & Node.js async API middleware",
+      "Django ORM & Flask lightweight microservices",
+      "Java REST API controllers & object mapping",
+      "PostgreSQL & MongoDB data persistence"
     ],
-    architecture: "AWS EC2 + S3 + Nginx Reverse Proxy"
-  },
-  {
-    id: "devops-cicd-pipeline",
-    title: "DevOps Automated CI/CD Pipeline",
-    shortDescription: "End-to-end continuous integration and continuous deployment pipeline using Git, Jenkins, Docker, and Kubernetes.",
-    fullDescription: "An architectural DevOps pipeline model demonstrating code commit automation, build testing, containerization with Docker, container registry pushes, and deployment orchestration onto Kubernetes & AWS.",
-    category: "DevOps",
-    secondaryCategories: ["DevOps", "AWS"],
-    technologies: ["Git", "GitHub", "Jenkins", "Docker", "Kubernetes", "AWS"],
-    featured: true,
-    image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "https://github.com/katkojwalk/AWS-DevOps-portfolio-project-setup.git",
-    liveUrl: "https://teal-swan-468600.netlify.app",
-    status: "Pipeline Prototype / In Progress",
-    features: [
-      "Automated Git commit triggers to Jenkins server",
-      "Containerization using Dockerfile builds",
-      "Kubernetes pod deployment configuration",
-      "Visual pipeline status and stage logging"
-    ],
-    architecture: "Git → Jenkins → Docker → Docker Registry → Kubernetes (K8s) → AWS"
+    architecture: "Express.js + Django + Flask + Java REST APIs + MongoDB/PostgreSQL"
   }
 ];
