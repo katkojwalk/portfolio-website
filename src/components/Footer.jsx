@@ -53,6 +53,11 @@ export default function Footer() {
             <h4 className="text-xs font-bold text-white uppercase tracking-wider">Live Netlify Deployments</h4>
             <ul className="space-y-2 text-xs font-mono">
               <li>
+                <a href="https://superb-hummingbird-b79b0e.netlify.app" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-blue-400 flex items-center gap-1.5">
+                  <ExternalLink className="w-3.5 h-3.5 text-indigo-400" /> EstateFlow CRM App
+                </a>
+              </li>
+              <li>
                 <a href="https://aws-devopss.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-blue-400 flex items-center gap-1.5">
                   <ExternalLink className="w-3.5 h-3.5 text-blue-400" /> AWS DevOps Setup
                 </a>
