@@ -98,34 +98,34 @@ export default function DevOpsPipeline() {
   const [activeStage, setActiveStage] = useState(pipelineStages[0]);
 
   return (
-    <section id="devops" className="py-20 relative">
+    <section id="devops" className="py-16 sm:py-20 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
+        <div className="text-center max-w-3xl mx-auto space-y-3 sm:space-y-4 mb-12 sm:mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 dark:bg-blue-900/40 text-blue-600 dark:text-blue-400 text-xs font-semibold uppercase tracking-wider">
             <Workflow className="w-3.5 h-3.5" />
             <span>DevOps & Automation Showcase</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">
+          <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">
             CI/CD & DevOps Pipeline Architecture
           </h2>
-          <p className="text-slate-600 dark:text-slate-400 text-base">
+          <p className="text-sm sm:text-base text-slate-600 dark:text-slate-400">
             Visualizing the automated software delivery pipeline from local code commits to AWS cloud production hosting.
           </p>
           <div className="w-16 h-1 bg-blue-600 rounded-full mx-auto" />
         </div>
 
         {/* Pipeline Diagram Flow */}
-        <div className="rounded-3xl p-6 sm:p-8 glass-card border border-slate-200 dark:border-slate-800 space-y-8">
+        <div className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 glass-card border border-slate-200 dark:border-slate-800 space-y-6 sm:space-y-8">
           
           {/* Status Legend */}
-          <div className="flex flex-wrap items-center justify-between gap-4 border-b border-slate-200 dark:border-slate-800 pb-4 text-xs font-medium">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 border-b border-slate-200 dark:border-slate-800 pb-4 text-xs font-medium">
             <div className="flex items-center gap-2 text-slate-900 dark:text-white font-bold">
-              <Play className="w-4 h-4 text-blue-500 animate-pulse" />
-              <span>Interactive Pipeline Stages (Click any stage below)</span>
+              <Play className="w-4 h-4 text-blue-500 animate-pulse shrink-0" />
+              <span>Interactive Pipeline Stages (Tap any stage below)</span>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-[11px] sm:text-xs">
               <span className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-emerald-500/10 text-emerald-500 border border-emerald-500/30">
                 <CheckCircle className="w-3.5 h-3.5" /> Implemented
               </span>
@@ -138,18 +138,18 @@ export default function DevOpsPipeline() {
             </div>
           </div>
 
-          {/* Interactive Timeline Pipeline Nodes */}
-          <div className="grid grid-cols-2 sm:grid-cols-5 lg:grid-cols-10 gap-3 py-4">
-            {pipelineStages.map((stage, idx) => {
+          {/* Interactive Timeline Pipeline Nodes (Responsive Grid) */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-10 gap-2.5 sm:gap-3 py-2">
+            {pipelineStages.map((stage) => {
               const StageIcon = stage.icon;
               const isSelected = activeStage.id === stage.id;
               return (
                 <button
                   key={stage.id}
                   onClick={() => setActiveStage(stage)}
-                  className={`p-3 rounded-2xl flex flex-col items-center justify-between gap-2.5 text-center transition-all duration-300 border ${
+                  className={`p-2.5 sm:p-3 rounded-xl sm:rounded-2xl flex flex-col items-center justify-between gap-2 text-center transition-all duration-300 border ${
                     isSelected
-                      ? "bg-blue-600 text-white shadow-lg shadow-blue-500/30 scale-105 border-blue-500"
+                      ? "bg-blue-600 text-white shadow-lg shadow-blue-500/30 scale-[1.03] sm:scale-105 border-blue-500"
                       : "bg-slate-100/70 dark:bg-slate-800/50 hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700/60"
                   }`}
                 >
@@ -158,10 +158,10 @@ export default function DevOpsPipeline() {
                   </div>
                   
                   <div className={`p-2 rounded-xl ${isSelected ? 'bg-white/20' : 'bg-slate-200/60 dark:bg-slate-700/50'}`}>
-                    <StageIcon className="w-5 h-5" />
+                    <StageIcon className="w-4 h-4 sm:w-5 sm:h-5" />
                   </div>
 
-                  <span className="text-xs font-bold leading-tight line-clamp-2">
+                  <span className="text-[11px] sm:text-xs font-bold leading-tight line-clamp-2">
                     {stage.name}
                   </span>
 
@@ -174,26 +174,26 @@ export default function DevOpsPipeline() {
           </div>
 
           {/* Selected Stage Detail Panel */}
-          <div className="p-6 rounded-2xl bg-slate-900 text-white border border-slate-800 space-y-3">
-            <div className="flex flex-wrap items-center justify-between gap-2">
+          <div className="p-4 sm:p-6 rounded-2xl bg-slate-900 text-white border border-slate-800 space-y-3">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl bg-blue-600/30 border border-blue-500/50 flex items-center justify-center text-blue-400 font-bold">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-blue-600/30 border border-blue-500/50 flex items-center justify-center text-blue-400 font-bold shrink-0">
                   {activeStage.id}
                 </div>
                 <div>
-                  <h4 className="text-lg font-bold text-white flex items-center gap-2">
+                  <h4 className="text-base sm:text-lg font-bold text-white flex items-center gap-2">
                     <span>{activeStage.name} Stage</span>
                   </h4>
                   <p className="text-xs text-slate-400">{activeStage.shortDesc}</p>
                 </div>
               </div>
 
-              <span className={`px-3 py-1 rounded-full text-xs font-bold border ${activeStage.statusColor}`}>
+              <span className={`px-3 py-1 rounded-full text-xs font-bold border self-start sm:self-auto ${activeStage.statusColor}`}>
                 Status: {activeStage.status}
               </span>
             </div>
 
-            <p className="text-sm text-slate-300 pt-2 border-t border-slate-800 leading-relaxed font-sans">
+            <p className="text-xs sm:text-sm text-slate-300 pt-2 border-t border-slate-800 leading-relaxed font-sans">
               {activeStage.detail}
             </p>
           </div>
