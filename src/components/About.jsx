@@ -32,7 +32,7 @@ export default function About() {
           {/* Main About Text */}
           <div className="lg:col-span-7 space-y-6 text-slate-600 dark:text-slate-300 leading-relaxed text-base sm:text-lg">
             <p className="font-medium text-slate-900 dark:text-slate-100 text-xl leading-snug">
-              Katkojwal Krishna holds a <strong>Master of Science (M.Sc.)</strong> and is a multi-skilled technology practitioner with hands-on experience spanning web development, backend engineering, database management, cloud deployment, and digital optimization strategies.
+              Katkojwal Krishna holds a <strong>Master of Science (M.Sc.)</strong> and a <strong>Bachelor of Science in Electronics</strong> from <strong>Osmania University</strong>. He is a multi-skilled technology practitioner with hands-on experience spanning web development, backend engineering, database management, cloud deployment, and digital optimization strategies.
             </p>
 
             <p>
@@ -50,8 +50,15 @@ export default function About() {
                   <BookOpen className="w-4 h-4 text-blue-500" />
                   <span>Educational Qualification</span>
                 </div>
-                <div className="text-xs text-slate-800 dark:text-slate-200 font-semibold bg-slate-100 dark:bg-slate-800 p-2 rounded">
-                  Master of Science (M.Sc. / Master in Sciences)
+                <div className="space-y-1.5 text-xs text-slate-800 dark:text-slate-200 bg-slate-100 dark:bg-slate-800 p-2.5 rounded font-sans">
+                  <div>
+                    <strong className="block text-slate-900 dark:text-white text-sm">Master of Science (M.Sc.)</strong>
+                    <span className="text-slate-500 dark:text-slate-400">Osmania University</span>
+                  </div>
+                  <div className="pt-1 border-t border-slate-200 dark:border-slate-700">
+                    <strong className="block text-slate-900 dark:text-white text-xs">Bachelor of Science (B.Sc.) in Electronics</strong>
+                    <span className="text-slate-500 dark:text-slate-400">Osmania University</span>
+                  </div>
                 </div>
               </div>
 
@@ -60,8 +67,8 @@ export default function About() {
                   <Award className="w-4 h-4 text-indigo-500" />
                   <span>Core Focus Areas</span>
                 </div>
-                <div className="text-xs text-slate-700 dark:text-slate-300 font-medium bg-slate-100 dark:bg-slate-800 p-2 rounded">
-                  Full-Stack Development, Cloud AWS, Databases & DevOps
+                <div className="text-xs text-slate-700 dark:text-slate-300 font-medium bg-slate-100 dark:bg-slate-800 p-2.5 rounded">
+                  Full-Stack Development, Electronics & Hardware Logic, Cloud AWS, Databases & DevOps
                 </div>
               </div>
             </div>

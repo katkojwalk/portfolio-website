@@ -35,10 +35,10 @@ export default function Resume() {
 
           <div className="space-y-2">
             <h3 className="text-2xl font-bold text-slate-900 dark:text-white">
-              Katkojwal Krishna, M.Sc. — Tech Resume
+              Katkojwal Krishna — Tech Resume
             </h3>
             <p className="text-sm text-slate-600 dark:text-slate-400 max-w-xl mx-auto">
-              Master of Science • React Developer • Full-Stack PHP • Database Specialist (MongoDB, PostgreSQL, SQL, Firebase, Supabase) • AWS & DevOps
+              Master of Science & B.Sc. Electronics (Osmania University) • React Developer • Full-Stack PHP • Database Specialist • AWS & DevOps
             </p>
           </div>
 
@@ -74,7 +74,7 @@ export default function Resume() {
                 <div className="flex items-center gap-2">
                   <FileText className="w-5 h-5 text-blue-500" />
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white">
-                    Resume Preview — Katkojwal Krishna, M.Sc.
+                    Resume Preview — Katkojwal Krishna
                   </h3>
                 </div>
                 <button
@@ -92,7 +92,7 @@ export default function Resume() {
                   <div>
                     <h2 className="text-2xl font-extrabold text-slate-900 dark:text-white">Katkojwal Krishna</h2>
                     <p className="text-xs font-semibold text-blue-600 dark:text-blue-400 mt-0.5">
-                      Master of Science (M.Sc.) | React Developer | Full-Stack PHP | Databases (MongoDB, PostgreSQL, SQL, Firebase, Supabase)
+                      M.Sc. & B.Sc. Electronics (Osmania University) | React Developer | Full-Stack PHP | Databases
                     </p>
                   </div>
                   <div className="text-xs text-slate-500 dark:text-slate-400 font-mono space-y-0.5 text-right">
@@ -106,19 +106,29 @@ export default function Resume() {
                 <div className="space-y-1">
                   <h4 className="font-bold text-slate-900 dark:text-white text-xs uppercase tracking-wider text-blue-600 dark:text-blue-400">Professional Summary</h4>
                   <p>
-                    Master of Science graduate and multi-skilled technology practitioner experienced in crafting responsive React frontend applications, backend engineering, cloud deployment, and database administration. Skilled across MongoDB, PostgreSQL, SQL, Firebase, Supabase, PHP, WordPress, AWS EC2/S3, and automated DevOps CI/CD pipelines.
+                    Osmania University graduate (Master of Science & Bachelor of Science in Electronics) and multi-skilled technology practitioner experienced in crafting responsive React frontend applications, backend engineering, cloud deployment, and database administration. Skilled across MongoDB, PostgreSQL, SQL, Firebase, Supabase, PHP, WordPress, AWS EC2/S3, and automated DevOps CI/CD pipelines.
                   </p>
                 </div>
 
                 {/* Academic Qualification */}
-                <div className="space-y-1">
-                  <h4 className="font-bold text-slate-900 dark:text-white text-xs uppercase tracking-wider text-blue-600 dark:text-blue-400">Education & Academic Qualification</h4>
-                  <div className="p-3 rounded-xl bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex justify-between items-center">
-                    <div>
-                      <strong className="text-slate-900 dark:text-white text-sm">Master of Science (M.Sc.)</strong>
-                      <div className="text-xs text-slate-500 dark:text-slate-400 font-mono mt-0.5">[ADD INSTITUTION / UNIVERSITY NAME]</div>
+                <div className="space-y-2">
+                  <h4 className="font-bold text-slate-900 dark:text-white text-xs uppercase tracking-wider text-blue-600 dark:text-blue-400">Education & Academic Qualifications</h4>
+                  <div className="space-y-2">
+                    <div className="p-3 rounded-xl bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex justify-between items-center">
+                      <div>
+                        <strong className="text-slate-900 dark:text-white text-sm">Master of Science (M.Sc.)</strong>
+                        <div className="text-xs text-slate-600 dark:text-slate-400 font-medium">Osmania University</div>
+                      </div>
+                      <span className="text-xs font-mono text-slate-400">Completed</span>
                     </div>
-                    <span className="text-xs font-mono text-slate-400">[ADD YEAR]</span>
+
+                    <div className="p-3 rounded-xl bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 flex justify-between items-center">
+                      <div>
+                        <strong className="text-slate-900 dark:text-white text-sm">Bachelor of Science (B.Sc.) in Electronics</strong>
+                        <div className="text-xs text-slate-600 dark:text-slate-400 font-medium">Osmania University</div>
+                      </div>
+                      <span className="text-xs font-mono text-slate-400">Completed</span>
+                    </div>
                   </div>
                 </div>
 

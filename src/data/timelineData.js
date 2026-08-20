@@ -1,64 +1,64 @@
 export const timelineSteps = [
   {
     step: "01",
-    title: "Web Development Foundations",
-    period: "[ADD DATE / PERIOD]",
-    description: "Mastered core web development building blocks: HTML5, CSS3, JavaScript (ES6+), responsive design principles, and modern layout systems.",
+    title: "Electronics & Science Foundations (Osmania University)",
+    period: "Osmania University",
+    description: "Earned Bachelor of Science (B.Sc.) in Electronics and Master of Science (M.Sc.) from Osmania University, mastering hardware logic, circuit design, signal systems, and computational principles.",
     icon: "Code2",
-    badge: "Foundation"
+    badge: "Academic Foundation"
   },
   {
     step: "02",
-    title: "PHP & WordPress Ecosystem",
-    period: "[ADD DATE / PERIOD]",
-    description: "Expanded into dynamic backend web development with PHP, MySQL database management, and custom WordPress website development.",
+    title: "Web & Full-Stack Development",
+    period: "Web Engineering",
+    description: "Mastered frontend building blocks (HTML5, CSS3, JavaScript ES6+, React.js) and dynamic backend development with PHP and MySQL database management.",
     icon: "Server",
-    badge: "Backend & CMS"
+    badge: "Full-Stack Dev"
   },
   {
     step: "03",
+    title: "Database Engineering (SQL & NoSQL)",
+    period: "Data Architecture",
+    description: "Expanded database capabilities across relational SQL databases (PostgreSQL, MySQL) and NoSQL cloud BaaS platforms (MongoDB, Firebase Firestore, Supabase).",
+    icon: "Database",
+    badge: "Databases & BaaS"
+  },
+  {
+    step: "04",
     title: "AWS & Cloud Infrastructure",
-    period: "[ADD DATE / PERIOD]",
+    period: "Cloud Computing",
     description: "Ventured into cloud computing concepts, deploying EC2 instances, S3 object storage buckets, and learning Amazon Web Services infrastructure fundamentals.",
     icon: "Cloud",
     badge: "Cloud Computing"
   },
   {
-    step: "04",
+    step: "05",
     title: "Linux Server Administration & Nginx",
-    period: "[ADD DATE / PERIOD]",
+    period: "System Admin",
     description: "Mastered Linux CLI terminal operations, package management, virtual host routing, security firewall setup, and Nginx web server configuration.",
     icon: "Terminal",
     badge: "System Administration"
   },
   {
-    step: "05",
+    step: "06",
     title: "DevOps Practices & Version Control",
-    period: "[ADD DATE / PERIOD]",
+    period: "DevOps & CI/CD",
     description: "Adopted Git version control best practices, GitHub collaboration workflows, code branch management, and continuous integration concepts.",
     icon: "GitBranch",
     badge: "DevOps & Tooling"
   },
   {
-    step: "06",
+    step: "07",
     title: "Docker Containerization & Kubernetes",
-    period: "[ADD DATE / PERIOD]",
+    period: "Containers & K8s",
     description: "Exploring application containerization using Docker containers, Dockerfile orchestration, image registries, and Kubernetes cluster deployment models.",
     icon: "Box",
     badge: "Containers & K8s"
   },
   {
-    step: "07",
-    title: "Automated CI/CD Pipelines",
-    period: "[ADD DATE / PERIOD]",
-    description: "Building automated software delivery pipelines integrating GitHub repositories with Jenkins automation servers and cloud target hosts.",
-    icon: "RefreshCw",
-    badge: "Automation"
-  },
-  {
     step: "08",
     title: "SEO, AEO & GEO Digital Optimization",
-    period: "[ADD DATE / PERIOD]",
+    period: "Digital Optimization",
     description: "Pioneering content and technical optimization strategies for conventional Search Engine Optimization (SEO), Answer Engine Optimization (AEO), and Generative Engine Optimization (GEO).",
     icon: "Search",
     badge: "Digital Search Strategy"
