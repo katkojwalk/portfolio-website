@@ -132,7 +132,7 @@ export const projects = [
     technologies: ["AWS EC2", "AWS S3", "Linux (Ubuntu)", "Nginx", "Git"],
     featured: true,
     image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "https://github.com/katkojwalk/portfolio-website",
+    githubUrl: "https://github.com/katkojwalk/AWS-DevOps-portfolio-project-setup.git",
     liveUrl: "https://dashing-douhua-34e853.netlify.app/",
     status: "Cloud Infrastructure Project",
     features: [
@@ -153,7 +153,7 @@ export const projects = [
     technologies: ["Git", "GitHub", "Jenkins", "Docker", "Kubernetes", "AWS"],
     featured: true,
     image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "https://github.com/katkojwalk/portfolio-website",
+    githubUrl: "https://github.com/katkojwalk/AWS-DevOps-portfolio-project-setup.git",
     liveUrl: "https://teal-swan-468600.netlify.app",
     status: "Pipeline Prototype / In Progress",
     features: [
