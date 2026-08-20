@@ -1,30 +1,30 @@
 export const cmrProjects = [
   {
+    id: "estateflow-crm-system",
+    name: "EstateFlow CRM System",
+    objective: "Full-stack real estate CRM platform for lead management, deal pipelines, customer tracking, and property listings.",
+    role: "Lead Full-Stack Developer",
+    technologies: ["React.js", "Node.js", "Express.js", "PostgreSQL", "Tailwind CSS"],
+    screenshots: [],
+    architecture: "React SPA + Express REST API + PostgreSQL / NoSQL Architecture",
+    pipeline: "Git -> Netlify/Vercel SPA Build -> Automated Deployment",
+    results: "Comprehensive CRM dashboard enabling automated sales tracking and lead status updates.",
+    liveUrl: "https://github.com/katkojwalk/estateflow-crm.git",
+    githubUrl: "https://github.com/katkojwalk/estateflow-crm.git",
+    status: "Live CRM Platform"
+  },
+  {
     id: "cmr-project-placeholder-1",
     name: "CMR Academic Portal / Project Framework",
-    objective: "Custom web platform / project initiative developed for academic and digital requirements at CMR.",
-    role: "Full Stack Developer / Technical Lead",
+    objective: "Custom web platform developed for academic and digital requirements at CMR.",
+    role: "Full-Stack Developer / Technical Lead",
     technologies: ["PHP", "MySQL", "JavaScript", "HTML/CSS", "Bootstrap"],
     screenshots: [],
     architecture: "MVC Web Architecture (PHP + MySQL)",
     pipeline: "Git -> Local Testing -> Server Deployment",
     results: "Streamlined project submission and record management workflow.",
-    liveUrl: "[ADD CMR PROJECT LIVE URL]",
-    githubUrl: "[ADD CMR PROJECT GITHUB URL]",
-    status: "Project Framework (Expandable)"
-  },
-  {
-    id: "cmr-project-placeholder-2",
-    name: "CMR Digital System & Management Module",
-    objective: "Web-based dashboard interface for tracking digital records, student/department workflows, and report generation.",
-    role: "Web Developer / Database Designer",
-    technologies: ["PHP", "WordPress", "JavaScript", "MySQL"],
-    screenshots: [],
-    architecture: "WordPress Custom Post Types / Relational Database Schema",
-    pipeline: "Development -> Staging -> Production Server",
-    results: "Improved administrative record lookup efficiency and digital access.",
-    liveUrl: "[ADD CMR SYSTEM LIVE URL]",
-    githubUrl: "[ADD CMR SYSTEM GITHUB URL]",
-    status: "Project Module (Expandable)"
+    liveUrl: "https://github.com/katkojwalk/estateflow-crm.git",
+    githubUrl: "https://github.com/katkojwalk/estateflow-crm.git",
+    status: "Academic Portal"
   }
 ];
