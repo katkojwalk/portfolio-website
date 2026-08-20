@@ -12,6 +12,7 @@ import Timeline from './components/Timeline';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import FloatingContactWidget from './components/FloatingContactWidget';
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(() => {
@@ -30,7 +31,7 @@ export default function App() {
   }, [darkMode]);
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-[#0b0f19] text-slate-900 dark:text-slate-100 selection:bg-blue-500 selection:text-white">
+    <div className="min-h-screen bg-slate-50 dark:bg-[#0b0f19] text-slate-900 dark:text-slate-100 selection:bg-blue-500 selection:text-white relative">
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       
       <main>
@@ -48,6 +49,9 @@ export default function App() {
       </main>
 
       <Footer />
+
+      {/* Floating Phone & WhatsApp Quick Connect Widget */}
+      <FloatingContactWidget />
     </div>
   );
 }
