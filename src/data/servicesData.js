@@ -1,5 +1,12 @@
 export const services = [
   {
+    id: "backend-engineering",
+    title: "Backend & API Development",
+    icon: "Server",
+    description: "Building robust backend services, RESTful APIs, and microservices using Java, Express.js (Node.js), Django, Flask, and PHP.",
+    deliverables: ["Express.js & Node.js REST APIs", "Django & Flask Python Backends", "Java & Spring RESTful Services", "PHP & MySQL Backends"]
+  },
+  {
     id: "react-apps",
     title: "React Web Applications",
     icon: "Layout",
@@ -12,13 +19,6 @@ export const services = [
     icon: "Server",
     description: "Designing SQL & NoSQL database schemas with MongoDB, PostgreSQL, MySQL, and cloud BaaS (Firebase & Supabase).",
     deliverables: ["MongoDB & NoSQL Schemas", "PostgreSQL & MySQL Relational DBs", "Supabase Backend Integration", "Firebase Live Firestore & Auth"]
-  },
-  {
-    id: "php-dev",
-    title: "PHP Backend Development",
-    icon: "Server",
-    description: "Developing robust PHP-driven web applications, dynamic script automation, and database backend integration.",
-    deliverables: ["Custom PHP Backends", "MySQL Database Design", "Form Processing & Validation", "REST APIs"]
   },
   {
     id: "wordpress-dev",

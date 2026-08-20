@@ -15,7 +15,7 @@ export default function Hero() {
           <div className="lg:col-span-7 space-y-5 sm:space-y-6 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 dark:bg-blue-950/60 border border-blue-200 dark:border-blue-800/60 text-blue-600 dark:text-blue-400 text-xs sm:text-sm font-medium animate-pulse-slow">
               <Sparkles className="w-4 h-4 text-blue-500 shrink-0" />
-              <span>Available for Full-Stack, Cloud & Freelance Projects</span>
+              <span>Available for Full-Stack, Backend & Freelance Projects</span>
             </div>
 
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-[1.15]">
@@ -24,14 +24,14 @@ export default function Hero() {
             </h1>
 
             <p className="text-base sm:text-xl font-semibold text-blue-600 dark:text-blue-400 leading-snug">
-              React Developer • Full-Stack PHP • Database Specialist (MongoDB, PostgreSQL, Firebase, Supabase) • AWS & DevOps Enthusiast
+              Backend & Full-Stack Developer • Java • JavaScript (Node.js/Express.js) • Python (Django, Flask) • PHP • React.js • AWS & DevOps
             </p>
 
             <p className="text-sm sm:text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
-              "Building modern React applications, scalable databases (MongoDB, PostgreSQL, SQL, Firebase, Supabase), cloud infrastructure, and optimized web experiences."
+              "Building robust backend APIs (Java, Express.js, Django, Flask, PHP), scalable databases (MongoDB, PostgreSQL, SQL, Firebase, Supabase), and modern React applications."
             </p>
 
-            {/* Action Buttons (Mobile-first responsive layout) */}
+            {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-3 sm:gap-4 pt-2">
               <a
                 href="#projects"
@@ -60,11 +60,11 @@ export default function Hero() {
 
             {/* Quick Tech Badges */}
             <div className="pt-4 border-t border-slate-200/60 dark:border-slate-800/60 flex flex-wrap items-center justify-center lg:justify-start gap-2 text-xs font-medium text-slate-500 dark:text-slate-400">
-              <span className="text-slate-700 dark:text-slate-300 font-semibold mr-1 w-full sm:w-auto">Core Stack:</span>
-              <span className="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700">React.js & JS</span>
-              <span className="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700">MongoDB / Postgres / SQL</span>
-              <span className="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700">Firebase & Supabase</span>
-              <span className="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700">AWS & DevOps</span>
+              <span className="text-slate-700 dark:text-slate-300 font-semibold mr-1 w-full sm:w-auto">Backend & DB Stack:</span>
+              <span className="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700">Java & Express.js</span>
+              <span className="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700">Django & Flask</span>
+              <span className="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700">PHP & Node.js</span>
+              <span className="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700">MongoDB & Postgres</span>
             </div>
           </div>
 
@@ -73,12 +73,12 @@ export default function Hero() {
             {/* Floating Tech Badges around Terminal */}
             <div className="absolute -top-4 -left-3 sm:-top-6 sm:-left-6 z-20 flex items-center gap-2 px-3 py-1.5 sm:py-2 rounded-xl bg-white dark:bg-slate-800 shadow-xl border border-slate-200 dark:border-slate-700 text-[11px] sm:text-xs font-semibold text-slate-800 dark:text-slate-200 animate-float">
               <Database className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-500" />
-              <span>MongoDB & Postgres</span>
+              <span>Express.js & Django</span>
             </div>
 
             <div className="absolute -bottom-4 -right-3 sm:-bottom-6 sm:-right-6 z-20 flex items-center gap-2 px-3 py-1.5 sm:py-2 rounded-xl bg-white dark:bg-slate-800 shadow-xl border border-slate-200 dark:border-slate-700 text-[11px] sm:text-xs font-semibold text-slate-800 dark:text-slate-200 animate-float" style={{ animationDelay: '2s' }}>
               <Zap className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-500" />
-              <span>Supabase & Firebase</span>
+              <span>Java & Flask APIs</span>
             </div>
 
             {/* Code Window Container */}
@@ -89,37 +89,35 @@ export default function Hero() {
                   <div className="w-3 h-3 rounded-full bg-red-500/80" />
                   <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
                   <div className="w-3 h-3 rounded-full bg-green-500/80" />
-                  <span className="ml-2 text-[11px] sm:text-xs text-slate-400 font-sans font-medium">krishna-fullstack ~ bash</span>
+                  <span className="ml-2 text-[11px] sm:text-xs text-slate-400 font-sans font-medium">krishna-backend ~ bash</span>
                 </div>
                 <div className="flex items-center gap-1.5 text-xs text-slate-400">
                   <Terminal className="w-3.5 h-3.5" />
-                  <span>v2.0</span>
+                  <span>v2.5</span>
                 </div>
               </div>
 
               {/* Window Code Content */}
               <div className="p-4 sm:p-5 space-y-3 leading-relaxed text-[11px] sm:text-xs overflow-x-auto">
                 <div className="text-slate-400">
-                  <span className="text-emerald-400">krishna@fullstack</span>:<span className="text-blue-400">~</span>$ cat tech_stack.json
+                  <span className="text-emerald-400">krishna@backend</span>:<span className="text-blue-400">~</span>$ cat server_frameworks.json
                 </div>
                 <div className="pl-2 sm:pl-3 border-l-2 border-blue-500/40 text-slate-300 space-y-1">
                   <div><span className="text-blue-400">"name"</span>: <span className="text-emerald-300">"Katkojwal Krishna"</span>,</div>
-                  <div><span className="text-blue-400">"degree"</span>: <span className="text-emerald-300">"M.Sc. & B.Sc. Electronics"</span>,</div>
-                  <div><span className="text-blue-400">"university"</span>: <span className="text-emerald-300">"Osmania University"</span>,</div>
-                  <div><span className="text-blue-400">"frontend"</span>: <span className="text-emerald-300">"React.js, HTML5, CSS3, JS"</span>,</div>
-                  <div><span className="text-blue-400">"databases"</span>: [</div>
-                  <div className="pl-3 sm:pl-4 text-amber-300">"MongoDB", "PostgreSQL", "MySQL/SQL",</div>
-                  <div className="pl-3 sm:pl-4 text-amber-300">"Firebase", "Supabase"</div>
+                  <div><span className="text-blue-400">"backend_tech"</span>: [</div>
+                  <div className="pl-3 sm:pl-4 text-amber-300">"Java", "JavaScript (Node.js)", "Express.js",</div>
+                  <div className="pl-3 sm:pl-4 text-amber-300">"Django (Python)", "Flask", "PHP"</div>
                   <div>],</div>
-                  <div><span className="text-blue-400">"backend_cloud"</span>: <span className="text-emerald-300">"PHP, AWS EC2/S3, Linux, Nginx, Docker, Jenkins"</span></div>
+                  <div><span className="text-blue-400">"databases"</span>: <span className="text-emerald-300">"MongoDB, PostgreSQL, SQL, Firebase, Supabase"</span>,</div>
+                  <div><span className="text-blue-400">"frontend"</span>: <span className="text-emerald-300">"React.js, HTML5, CSS3, Tailwind"</span></div>
                 </div>
 
                 <div className="pt-2 text-slate-400 flex items-center gap-2">
-                  <span className="text-emerald-400">krishna@fullstack</span>:<span className="text-blue-400">~</span>$ ./check_status.sh
+                  <span className="text-emerald-400">krishna@backend</span>:<span className="text-blue-400">~</span>$ ./start_microservices.sh
                 </div>
                 <div className="text-emerald-400 font-semibold flex items-center gap-1.5">
                   <ShieldCheck className="w-4 h-4 text-emerald-400 inline shrink-0" />
-                  <span>MongoDB, PostgreSQL, Firebase & Supabase: Connected!</span>
+                  <span>Java, Express.js, Django & Flask APIs: Running!</span>
                 </div>
               </div>
             </div>

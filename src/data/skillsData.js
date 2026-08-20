@@ -1,7 +1,21 @@
 export const skillsCategories = [
   {
+    id: "backend-frameworks",
+    category: "Backend & Server Frameworks",
+    icon: "Server",
+    description: "Developing scalable server-side backends, REST APIs, and microservices",
+    skills: [
+      { name: "Java", level: "Practitioner", icon: "Code2" },
+      { name: "JavaScript (Node.js)", level: "Advanced", icon: "Braces" },
+      { name: "Express.js", level: "Advanced", icon: "Server" },
+      { name: "Django (Python)", level: "Practitioner", icon: "Layers" },
+      { name: "Flask (Python)", level: "Practitioner", icon: "Zap" },
+      { name: "PHP & REST APIs", level: "Advanced", icon: "Server" }
+    ]
+  },
+  {
     id: "web-react",
-    category: "Web & React Development",
+    category: "Frontend & React Apps",
     icon: "Atom",
     description: "Building modern Single Page Applications (SPAs) and responsive frontend interfaces using React",
     skills: [
@@ -9,8 +23,7 @@ export const skillsCategories = [
       { name: "JavaScript (ES6+)", level: "Advanced", icon: "Braces" },
       { name: "HTML5 & CSS3", level: "Advanced", icon: "FileCode" },
       { name: "Responsive Web Apps", level: "Advanced", icon: "Layout" },
-      { name: "PHP Development", level: "Intermediate", icon: "Server" },
-      { name: "REST API Integration", level: "Advanced", icon: "Plug" }
+      { name: "Tailwind CSS", level: "Advanced", icon: "Palette" }
     ]
   },
   {
@@ -63,17 +76,6 @@ export const skillsCategories = [
       { name: "Docker", level: "Practicing", icon: "Box" },
       { name: "Kubernetes", level: "Exploring", icon: "Layers" },
       { name: "CI/CD Pipelines", level: "Practicing", icon: "RefreshCw" }
-    ]
-  },
-  {
-    id: "ai-dev",
-    category: "AI-Assisted Development",
-    icon: "Bot",
-    description: "Accelerating code generation, refactoring, and workflow automation with modern AI tools",
-    skills: [
-      { name: "Gemini CLI", level: "Active User", icon: "Sparkles" },
-      { name: "GitHub Copilot", level: "Active User", icon: "Code" },
-      { name: "AI Workflows", level: "Practitioner", icon: "Cpu" }
     ]
   },
   {

@@ -1,5 +1,6 @@
 export const projectCategories = [
   "All",
+  "Backend",
   "React Apps",
   "Databases",
   "Web Development",
@@ -15,6 +16,48 @@ export const projectCategories = [
 ];
 
 export const projects = [
+  {
+    id: "express-django-flask-backend-hub",
+    title: "Multi-Framework Microservices Backend",
+    shortDescription: "Scalable backend suite built using Express.js (Node.js), Django (Python), Flask, and Java REST APIs with MongoDB & PostgreSQL integration.",
+    fullDescription: "A multi-framework backend architecture lab demonstrating RESTful API development across Express.js, Django, Flask, Java, and PHP. Includes JWT authentication, ORM database connectivity, and API routing.",
+    category: "Backend",
+    secondaryCategories: ["Backend", "Databases", "React Apps"],
+    technologies: ["Express.js", "Django", "Flask", "Java", "Node.js", "PostgreSQL", "MongoDB"],
+    featured: true,
+    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=800&auto=format&fit=crop",
+    githubUrl: "https://github.com/katkojwalk/portfolio-website",
+    liveUrl: "https://dashing-douhua-34e853.netlify.app/",
+    status: "Backend API Suite",
+    features: [
+      "Express.js & Node.js async API middleware",
+      "Django ORM & Flask lightweight microservices",
+      "Java REST API controllers & object mapping",
+      "PostgreSQL & MongoDB data persistence"
+    ],
+    architecture: "Express.js + Django + Flask + Java REST APIs + MongoDB/PostgreSQL"
+  },
+  {
+    id: "react-supabase-task-app",
+    title: "React & Supabase Full-Stack App",
+    shortDescription: "Modern React web application featuring PostgreSQL backend, authentication, and real-time database syncing with Supabase.",
+    fullDescription: "A full-stack Single Page Application (SPA) built using React.js and Supabase (PostgreSQL). Implements secure user authentication, row-level security (RLS), real-time database subscriptions, and responsive UI components.",
+    category: "React Apps",
+    secondaryCategories: ["React Apps", "Backend", "Databases"],
+    technologies: ["React.js", "Express.js", "Supabase", "PostgreSQL", "JavaScript ES6"],
+    featured: true,
+    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop",
+    githubUrl: "https://github.com/katkojwalk/portfolio-website",
+    liveUrl: "https://teal-swan-468600.netlify.app",
+    status: "Full-Stack React App",
+    features: [
+      "PostgreSQL database integration via Supabase",
+      "Real-time data synchronization & state management",
+      "Secure user authentication (JWT / OAuth)",
+      "Responsive glassmorphism dashboard UI"
+    ],
+    architecture: "React SPA + Express.js API + Supabase (PostgreSQL BaaS)"
+  },
   {
     id: "quadra-tuitions",
     title: "Quadra Home Tuitions",
@@ -59,34 +102,13 @@ export const projects = [
     architecture: "Single Page Application (React / Component State)"
   },
   {
-    id: "react-supabase-task-app",
-    title: "React & Supabase Full-Stack App",
-    shortDescription: "Modern React web application featuring PostgreSQL backend, authentication, and real-time database syncing with Supabase.",
-    fullDescription: "A full-stack Single Page Application (SPA) built using React.js and Supabase (PostgreSQL). Implements secure user authentication, row-level security (RLS), real-time database subscriptions, and responsive UI components.",
-    category: "React Apps",
-    secondaryCategories: ["React Apps", "Databases", "Web Development"],
-    technologies: ["React.js", "Supabase", "PostgreSQL", "Tailwind CSS", "JavaScript ES6"],
-    featured: true,
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "https://github.com/katkojwalk/portfolio-website",
-    liveUrl: "https://teal-swan-468600.netlify.app",
-    status: "Full-Stack React App",
-    features: [
-      "PostgreSQL database integration via Supabase",
-      "Real-time data synchronization & state management",
-      "Secure user authentication (JWT / OAuth)",
-      "Responsive glassmorphism dashboard UI"
-    ],
-    architecture: "React SPA + Supabase (PostgreSQL BaaS)"
-  },
-  {
     id: "mongodb-firebase-auth-suite",
     title: "Multi-Database Cloud Sync Suite",
     shortDescription: "Database architecture lab comparing NoSQL document storage (MongoDB) with Google Firebase Firestore real-time sync.",
     fullDescription: "A dual database exploration suite demonstrating document modeling in MongoDB, real-time Firestore synchronization in Firebase, and relational SQL query optimization.",
     category: "Databases",
-    secondaryCategories: ["Databases", "React Apps"],
-    technologies: ["MongoDB", "Firebase", "PostgreSQL", "MySQL", "React.js"],
+    secondaryCategories: ["Databases", "Backend", "React Apps"],
+    technologies: ["MongoDB", "Firebase", "Express.js", "Django", "PostgreSQL", "MySQL"],
     featured: true,
     image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=800&auto=format&fit=crop",
     githubUrl: "https://github.com/katkojwalk/portfolio-website",
@@ -98,7 +120,7 @@ export const projects = [
       "PostgreSQL & MySQL relational schema design",
       "API data mapping and caching strategies"
     ],
-    architecture: "React Frontend + MongoDB NoSQL + Firebase Firestore + PostgreSQL"
+    architecture: "React Frontend + Express.js/Django + MongoDB + Firebase Firestore + PostgreSQL"
   },
   {
     id: "aws-static-website",
@@ -120,27 +142,6 @@ export const projects = [
       "Linux command line administration & firewall setup"
     ],
     architecture: "AWS EC2 + S3 + Nginx Reverse Proxy"
-  },
-  {
-    id: "aws-cloud-experiments",
-    title: "AWS Multi-Tier Infrastructure Lab",
-    shortDescription: "Cloud architecture setup involving EC2 compute instances, S3 object storage, and RDS relational databases.",
-    fullDescription: "A hands-on cloud environment exploring multi-tier deployment patterns, database connection security, S3 bucket policy management, and Linux server management.",
-    category: "AWS",
-    secondaryCategories: ["AWS", "Databases", "PHP"],
-    technologies: ["AWS EC2", "AWS S3", "AWS RDS (MySQL/PostgreSQL)", "Linux", "Nginx"],
-    featured: true,
-    image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=800&auto=format&fit=crop",
-    githubUrl: "https://github.com/katkojwalk/portfolio-website",
-    liveUrl: "https://dashing-douhua-34e853.netlify.app/",
-    status: "Cloud Experiment / Lab",
-    features: [
-      "EC2 instance provisioning and security group rules",
-      "RDS PostgreSQL / MySQL database setup",
-      "S3 storage bucket integration for backup & media assets",
-      "Basic IAM role & policy permissions setup"
-    ],
-    architecture: "AWS VPC + EC2 Web Server + RDS Database + S3 Storage"
   },
   {
     id: "devops-cicd-pipeline",

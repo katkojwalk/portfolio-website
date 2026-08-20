@@ -38,7 +38,7 @@ export default function Resume() {
               Katkojwal Krishna — Tech Resume
             </h3>
             <p className="text-sm text-slate-600 dark:text-slate-400 max-w-xl mx-auto">
-              Master of Science & B.Sc. Electronics (Osmania University) • React Developer • Full-Stack PHP • Database Specialist • AWS & DevOps
+              Master of Science & B.Sc. Electronics (Osmania University) • Backend Developer (Java, Express.js, Django, Flask, PHP) • React Developer • Databases & DevOps
             </p>
           </div>
 
@@ -92,7 +92,7 @@ export default function Resume() {
                   <div>
                     <h2 className="text-2xl font-extrabold text-slate-900 dark:text-white">Katkojwal Krishna</h2>
                     <p className="text-xs font-semibold text-blue-600 dark:text-blue-400 mt-0.5">
-                      M.Sc. & B.Sc. Electronics (Osmania University) | React Developer | Full-Stack PHP | Databases
+                      M.Sc. & B.Sc. Electronics (Osmania University) | Backend & Full-Stack Developer (Java, Express.js, Django, Flask, PHP, React)
                     </p>
                   </div>
                   <div className="text-xs text-slate-500 dark:text-slate-400 font-mono space-y-0.5 text-right">
@@ -106,7 +106,7 @@ export default function Resume() {
                 <div className="space-y-1">
                   <h4 className="font-bold text-slate-900 dark:text-white text-xs uppercase tracking-wider text-blue-600 dark:text-blue-400">Professional Summary</h4>
                   <p>
-                    Osmania University graduate (Master of Science & Bachelor of Science in Electronics) and multi-skilled technology practitioner experienced in crafting responsive React frontend applications, backend engineering, cloud deployment, and database administration. Skilled across MongoDB, PostgreSQL, SQL, Firebase, Supabase, PHP, WordPress, AWS EC2/S3, and automated DevOps CI/CD pipelines.
+                    Osmania University graduate (Master of Science & Bachelor of Science in Electronics) and multi-skilled technology practitioner experienced in crafting robust backend APIs (Java, Express.js, Django, Flask, PHP), responsive React frontend applications, cloud infrastructure on AWS, and database administration across MongoDB, PostgreSQL, SQL, Firebase, and Supabase.
                   </p>
                 </div>
 
@@ -136,9 +136,9 @@ export default function Resume() {
                 <div className="space-y-2">
                   <h4 className="font-bold text-slate-900 dark:text-white text-xs uppercase tracking-wider text-blue-600 dark:text-blue-400">Technical Skills</h4>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                    <div><strong className="text-slate-900 dark:text-white">Backend Frameworks:</strong> Java, Express.js (Node.js), Django (Python), Flask, PHP</div>
                     <div><strong className="text-slate-900 dark:text-white">Frontend & React:</strong> React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS</div>
                     <div><strong className="text-slate-900 dark:text-white">Databases & BaaS:</strong> MongoDB, PostgreSQL, MySQL / SQL, Firebase, Supabase</div>
-                    <div><strong className="text-slate-900 dark:text-white">Backend & CMS:</strong> PHP, WordPress Custom Themes & Plugins, REST APIs</div>
                     <div><strong className="text-slate-900 dark:text-white">Cloud & Infrastructure:</strong> AWS EC2, AWS S3, AWS RDS, Linux (Ubuntu), Nginx</div>
                     <div><strong className="text-slate-900 dark:text-white">DevOps & Automation:</strong> Git, GitHub, Jenkins, Docker, Kubernetes, CI/CD</div>
                     <div><strong className="text-slate-900 dark:text-white">Search & AI Visibility:</strong> Technical SEO, AEO, GEO, Gemini CLI, Copilot</div>
@@ -150,12 +150,12 @@ export default function Resume() {
                   <h4 className="font-bold text-slate-900 dark:text-white text-xs uppercase tracking-wider text-blue-600 dark:text-blue-400">Key Projects</h4>
                   <div className="space-y-2">
                     <div>
-                      <div className="font-bold text-slate-900 dark:text-white">React & Supabase Full-Stack Application</div>
-                      <p className="text-xs text-slate-600 dark:text-slate-400">Single Page Application built with React.js and Supabase (PostgreSQL), featuring real-time subscriptions and authentication.</p>
+                      <div className="font-bold text-slate-900 dark:text-white">Multi-Framework Microservices Backend</div>
+                      <p className="text-xs text-slate-600 dark:text-slate-400">RESTful API backend suite demonstrating Express.js, Django, Flask, Java, and PHP microservices with PostgreSQL & MongoDB.</p>
                     </div>
                     <div>
-                      <div className="font-bold text-slate-900 dark:text-white">Multi-Database Cloud Sync Suite</div>
-                      <p className="text-xs text-slate-600 dark:text-slate-400">Database architecture project exploring MongoDB document pipelines, Firebase Firestore live listeners, and SQL schema design.</p>
+                      <div className="font-bold text-slate-900 dark:text-white">React & Supabase Full-Stack Application</div>
+                      <p className="text-xs text-slate-600 dark:text-slate-400">Single Page Application built with React.js and Supabase (PostgreSQL), featuring real-time subscriptions and authentication.</p>
                     </div>
                     <div>
                       <div className="font-bold text-slate-900 dark:text-white">Quadra Home Tuitions</div>
