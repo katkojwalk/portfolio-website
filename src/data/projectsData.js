@@ -27,7 +27,7 @@ export const projects = [
     featured: true,
     image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop",
     githubUrl: "https://github.com/katkojwalk/estateflow-crm.git",
-    liveUrl: "https://superb-hummingbird-b79b0e.netlify.app",
+    liveUrl: "https://realestate-kk-crm.netlify.app/",
     status: "Live CRM Platform",
     features: [
       "Interactive lead management & deal pipeline stages",

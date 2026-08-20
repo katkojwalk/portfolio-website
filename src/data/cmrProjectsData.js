@@ -9,7 +9,7 @@ export const cmrProjects = [
     architecture: "React SPA + Express REST API + PostgreSQL / NoSQL Architecture",
     pipeline: "Git -> Netlify/Vercel SPA Build -> Automated Deployment",
     results: "Comprehensive CRM dashboard enabling automated sales tracking and lead status updates.",
-    liveUrl: "https://superb-hummingbird-b79b0e.netlify.app",
+    liveUrl: "https://realestate-kk-crm.netlify.app/",
     githubUrl: "https://github.com/katkojwalk/estateflow-crm.git",
     status: "Live CRM Platform"
   },
