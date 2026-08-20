@@ -61,7 +61,7 @@ export default function Resume() {
           </div>
 
           <div className="pt-4 text-xs font-mono text-slate-400 border-t border-slate-200/60 dark:border-slate-800/60">
-            Resume Placeholder: [ADD RESUME FILE URL]
+            Contact: katkojwalk.7@gmail.com
           </div>
         </div>
 
@@ -96,9 +96,8 @@ export default function Resume() {
                     </p>
                   </div>
                   <div className="text-xs text-slate-500 dark:text-slate-400 font-mono space-y-0.5 text-right">
-                    <div>Email: [ADD EMAIL]</div>
-                    <div>Location: [ADD LOCATION]</div>
-                    <div>GitHub: [ADD GITHUB URL]</div>
+                    <div>Email: katkojwalk.7@gmail.com</div>
+                    <div>GitHub: https://github.com/katkojwalk</div>
                   </div>
                 </div>
 
