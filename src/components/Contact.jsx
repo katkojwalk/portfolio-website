@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Send, Github, Linkedin, Briefcase, CheckCircle2, MessageSquare, User, MapPin } from 'lucide-react';
+import { Mail, Send, Github, Linkedin, Briefcase, CheckCircle2, MessageSquare, User, MapPin, Phone } from 'lucide-react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -24,8 +24,9 @@ export default function Contact() {
   };
 
   const socialLinks = [
+    { name: 'Phone', handle: '+91 7386078298', icon: Phone, href: 'tel:7386078298', color: 'hover:text-emerald-500' },
     { name: 'Email', handle: 'katkojwalk.7@gmail.com', icon: Mail, href: 'mailto:katkojwalk.7@gmail.com', color: 'hover:text-red-500' },
-    { name: 'GitHub', handle: '[ADD GITHUB URL]', icon: Github, href: 'https://github.com/katkojwalk', color: 'hover:text-purple-500' },
+    { name: 'GitHub', handle: 'github.com/katkojwalk', icon: Github, href: 'https://github.com/katkojwalk', color: 'hover:text-purple-500' },
     { name: 'LinkedIn', handle: '[ADD LINKEDIN URL]', icon: Linkedin, href: '[ADD LINKEDIN URL]', color: 'hover:text-blue-500' },
     { name: 'Freelancer', handle: '[ADD FREELANCER PROFILE URL]', icon: Briefcase, href: '[ADD FREELANCER PROFILE URL]', color: 'hover:text-cyan-500' }
   ];
@@ -44,7 +45,7 @@ export default function Contact() {
             Contact Katkojwal Krishna
           </h2>
           <p className="text-slate-600 dark:text-slate-400 text-base">
-            Have a project in mind, a freelance opportunity, or a job inquiry? Reach out directly below or email katkojwalk.7@gmail.com.
+            Have a project in mind, a freelance opportunity, or a job inquiry? Reach out directly via phone at +91 7386078298 or email katkojwalk.7@gmail.com.
           </p>
           <div className="w-16 h-1 bg-blue-600 rounded-full mx-auto" />
         </div>
@@ -58,7 +59,7 @@ export default function Contact() {
                 Connect Across Platforms
               </h3>
               <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-                Feel free to connect via social profiles, freelance platforms, or send an email directly to <strong className="text-blue-600 dark:text-blue-400">katkojwalk.7@gmail.com</strong>.
+                Feel free to call/WhatsApp at <strong className="text-emerald-600 dark:text-emerald-400">+91 7386078298</strong>, send an email to <strong className="text-blue-600 dark:text-blue-400">katkojwalk.7@gmail.com</strong>, or connect on GitHub.
               </p>
             </div>
 
@@ -98,8 +99,8 @@ export default function Contact() {
             </div>
 
             <div className="p-5 rounded-2xl bg-blue-600/10 dark:bg-blue-950/40 border border-blue-500/30 text-xs sm:text-sm text-slate-700 dark:text-slate-300 space-y-1">
-              <span className="font-bold text-blue-600 dark:text-blue-400 block">⚡ Direct Email Contact</span>
-              <p>Inquiries regarding Full-Stack Web Development, React Apps, Cloud AWS, or DevOps consulting are responded to promptly via <strong>katkojwalk.7@gmail.com</strong>.</p>
+              <span className="font-bold text-blue-600 dark:text-blue-400 block">⚡ Direct Phone & Email Contact</span>
+              <p>Inquiries regarding Full-Stack Web Development, React Apps, Cloud AWS, or DevOps consulting are responded to promptly via <strong>+91 7386078298</strong> or <strong>katkojwalk.7@gmail.com</strong>.</p>
             </div>
           </div>
 

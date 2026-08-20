@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FileText, Download, Eye, X, CheckCircle2, User, Mail, Globe, Code, Cloud } from 'lucide-react';
+import { FileText, Download, Eye, X, CheckCircle2, User, Mail, Globe, Code, Cloud, Phone } from 'lucide-react';
 
 export default function Resume() {
   const [isPreviewOpen, setIsPreviewOpen] = useState(false);
@@ -61,7 +61,7 @@ export default function Resume() {
           </div>
 
           <div className="pt-4 text-xs font-mono text-slate-400 border-t border-slate-200/60 dark:border-slate-800/60">
-            Contact: katkojwalk.7@gmail.com
+            Phone: +91 7386078298 | Email: katkojwalk.7@gmail.com
           </div>
         </div>
 
@@ -96,6 +96,7 @@ export default function Resume() {
                     </p>
                   </div>
                   <div className="text-xs text-slate-500 dark:text-slate-400 font-mono space-y-0.5 text-right">
+                    <div>Phone: +91 7386078298</div>
                     <div>Email: katkojwalk.7@gmail.com</div>
                     <div>GitHub: https://github.com/katkojwalk</div>
                   </div>
